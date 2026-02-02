@@ -1,16 +1,139 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🎮 Tic Tac Toe Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and interactive **Tic Tac Toe** game built using **React**, **Vite**, and **Tailwind CSS**.
+This project demonstrates core React concepts such as **state management**, **side effects**, and **component-based UI design**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* 🎯 Classic Tic Tac Toe gameplay
+* ⚛️ Built with modern React (functional components)
+* 🎨 Styled using Tailwind CSS
+* 🔄 Game state handling with `useState`
+* ⚡ Game logic & winner detection using `useEffect`
+* ♻️ Reset game functionality
+* 📱 Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React**
+* **Vite**
+* **Tailwind CSS**
+* **JavaScript (ES6+)**
+
+---
+
+## 📚 React Concepts Used
+
+* `useState`
+
+  * To manage:
+
+    * Current player
+    * Game board state
+    * Winner status
+* `useEffect`
+
+  * To check winning conditions after every move
+* Component-based architecture
+* Conditional rendering
+* Event handling
+
+---
+
+## 📂 Project Structure
+
+```bash
+tic-tac-toe/
+├── src/
+│   ├── components/
+│   │   └── Board.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/tic-tac-toe.git
+
+# Navigate to project folder
+cd tic-tac-toe
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🎮 How to Play
+
+1. Player **X** starts the game
+2. Players take turns clicking on empty cells
+3. First player to get **3 in a row** (horizontal, vertical, or diagonal) wins
+4. Click **Reset** to start a new game
+
+---
+
+## 🧠 Learning Outcome
+
+This project helped in understanding:
+
+* React hooks in real use cases
+* Managing UI state efficiently
+* Handling side effects in React
+* Styling React apps with Tailwind CSS
+* Building logic-based interactive applications
+
+---
+
+## 📌 Future Improvements
+
+* Add score tracking
+* Add single-player mode (AI)
+* Add animations & sound effects
+* Improve UI with transitions
+* Add dark/light mode
+
+---
+
+## 🙌 Acknowledgements
+
+* React Documentation
+* Tailwind CSS Docs
+* Vite Official Docs
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+
