@@ -66,7 +66,7 @@ tic-tac-toe/
 ---
 
 ## ⚙️ Installation & Setup
-
+  
 Follow these steps to run the project locally in your machine:
 
 ```bash
