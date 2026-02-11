@@ -6,7 +6,7 @@ function App() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-200">
       <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
         <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
-          Tic Tac Toe 🎮
+          Tic Tac Toe - A simple react Game! 🎮
         </h1>
         <Board />
       </div>
